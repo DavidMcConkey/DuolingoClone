@@ -9,6 +9,10 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  
   "dependencies": {
     "@types/node": "20.5.1",
     "@types/react": "18.2.20",
