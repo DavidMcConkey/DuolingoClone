@@ -9,9 +9,11 @@
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "strictNullChecks":false,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "noImplicitAny": false,
     "incremental": true,
     "plugins": [
       {
