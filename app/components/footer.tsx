@@ -1,6 +1,7 @@
 import Link from 'next/link'
 
 export default () => {
+    
     <footer className="footer">
         <div className="content has-text-centered">
             Powered by
