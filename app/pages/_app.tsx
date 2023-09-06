@@ -1,7 +1,7 @@
 import "../scss/styles.scss"
 import Head from "next/head";
 import NavBar from "../components/navbar";
-import Footer from "../components/footer";
+// import Footer from "../components/footer";
 import { AuthProvider } from "../contexts/auth";
 
 import '@fortawesome/fontawesome-free/js/fontawesome';
