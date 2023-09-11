@@ -13,10 +13,6 @@ export default () => (
                   <p>
                     
                   </p>
-                  <p>
-                    Inspired from <a href="https://www.mikealche.com/software-development/how-to-implement-authentication-in-next-js-without-third-party-libraries" >an article</a> of Mike Alche.
-                  </p>
-    
                   <p>Built with the great <a href="https://github.com/vvo/next-iron-session">Next-iron-session</a> backend utility to manage client sessions.</p>
                   </div>
               </div>
