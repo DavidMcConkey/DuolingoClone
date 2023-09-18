@@ -1,24 +1,22 @@
-import "../scss/styles.scss"
+import { type AppType } from "next/dist/shared/lib/utils"
 import Head from "next/head";
-import NavBar from "../components/navbar";
-// import Footer from "../components/footer";
-import { AuthProvider } from "../contexts/auth";
 
-import '@fortawesome/fontawesome-free/js/fontawesome';
-import '@fortawesome/fontawesome-free/js/solid';
-import '@fortawesome/fontawesome-free/js/regular';
-import '@fortawesome/fontawesome-free/js/brands';
+import "~/styles/globals.css";
 
-
-export default function ({Component,pageProps}) {
+const MyApp: AppType = ({Component, pageProps}) => {
     return (
-        <AuthProvider>
-            <Head>
-                <title>EyeGym</title>
+        <>
+        <Head>
+            <title>Duolingo</title>
+            <meta 
+                name="description"
+                content="Duolingo web App Clone made with react!"
+            />
+            <link rel="icon" href="/favicon.ico"/>
             </Head>
-            <NavBar></NavBar>
             <Component {...pageProps}/>
-           {/* <Footer></Footer> Not working at the moment*/}
-        </AuthProvider>
-    )
-}
+            </>
+    );
+};
+
+export default MyApp;
